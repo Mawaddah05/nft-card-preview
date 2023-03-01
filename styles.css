@@ -111,7 +111,7 @@ h2:hover{
 }
 .image-equilibrium:hover{
 color: var(--Cyan);
-background-image: url(/images/icon-view.svg);
+background-image: url('./images/icon-view.svg');
 cursor: pointer;
 background-color: var(--Cyan);
 }
