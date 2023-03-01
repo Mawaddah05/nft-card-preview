@@ -1,0 +1,125 @@
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%) 
+
+}
+
+body{
+    background-color: var(--Very-dark-blue-main-BG);
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    justify-content: center;
+    font-family: Khumbs Sans, Product Sans;
+
+
+}
+.card{
+    background-color: var(--Very-dark-blue-card-BG);
+    width: 250px;
+    height: 420px;
+    position: relative;
+    top: 50px;
+    border-radius: 15px;
+
+}
+.image-equilibrium{
+    width: 90%; 
+    height: 50%;
+    position: relative;
+    top: 12px;
+    border-radius: 10px;
+}
+h2{
+    font-size: medium;
+    margin-left: -50px;
+    padding-right: 50px;
+    margin-top: 25px;
+    color: white;
+
+}
+p{
+    font-weight: lighter;
+    color: var(--Soft-blue);
+    font-size: 13px;
+    text-align: left;
+    padding-left: 9px;
+}
+.price{
+    margin-right: 100px;
+    display: inline;
+}
+.ethereum{
+    position: relative;
+    top: 4px;
+
+}
+.num{
+    color:var(--Cyan);
+    display: inline;
+    padding-left: 50px;
+}
+.clock{
+    position: relative;
+    top: 3px;
+}
+.time{
+    color:rgb(147, 132, 192);
+    font-size: 15px;
+    display: inline;
+
+}
+.period{
+    margin-left: 40px;
+    position: relative;
+    top: -20px;
+    right: -45px;
+}
+.line{
+    background-color: var(--Very-dark-blue-line);
+    width: 220px;
+    height: 1px;
+    text-align: center;
+    align-self:center;
+    margin-left: 10px;
+}
+.avatar{
+    width: 35px;
+    position:relative;
+    top: 8px;
+    left: -20px;
+    margin-left: 30px;
+}
+.author{
+    display: inline;
+   padding-left: 35px;
+   padding: bottom 20px; 
+   padding-top: -10px;
+   font-size: small;
+   color: var(--Soft-blue);
+   font-weight: 400; 
+}
+span{
+    color: white;
+}
+h2:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+}
+.image-equilibrium:hover{
+color: var(--Cyan);
+background-image: url(/images/icon-view.svg);
+cursor: pointer;
+background-color: var(--Cyan);
+}
+.view{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    background-color: var(--Cyan);
+    opacity:30% ;
+}
+
